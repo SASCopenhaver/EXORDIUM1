@@ -8,9 +8,18 @@ User Name: SASCopenhaver
 Password: 9200@Copenhaver
 Email: sasurikov@outlook.com
 ================================================================================
-1. TO CLONE FROM GitHUB TO LOCAL COMPUTER (if needed)
+1. (if needed) TO CLONE FROM existing GitHUB repo TO LOCAL COMPUTER 
 	git clone https://github.com/SASCopenhaver/some-source.git
 	
 2.	TO PUSH TO A NEW SERVER LOCATION:
-	2.1 Change origin location:
-		RUN:	git remote set-url origin https://github.com/SASCopenhaver/destination.git
+	2.1	Make sure on local computer all files were added and commited
+	2.2	Make sure that remote origin is added:
+		RUN:	git remote add origin https://github.com/SASCopenhaver/some-destination.git
+	2.3	Make sure what is origin:
+		RUN:	git remote -v
+		
+	2.4 (if needed) Change origin location:
+		RUN:	git remote set-url origin https://github.com/SASCopenhaver/some-destination.git
+	
+	2.5	Push files from local repo to GitHUB ripo:
+		RUN:	git push origin master 
