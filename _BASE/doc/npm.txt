@@ -1,0 +1,17 @@
+Git
+Node
+NPM
+Gulp
+
+
+1. Install NPM. Open CDM:
+	npm init
+	
+2. As a result package.json is created.
+
+3. Installing Gulp for this project:
+	npm install gulp --save-dev
+
+4. in the root of the project create file gulpfile.js
+
+5. in gulp everything is about "tasks".

@@ -1,0 +1,68 @@
+#Git
+#Node
+#NPM
+#Gulp
+================================================================================
+			Git
+- History
+- Collaboration
+- Feature branches - ability to create branches to work on different parts of the project. 
+
+Vocabulary:
+	Project = Repository (repo)
+	Working directory - is a directory where project is located
+	Staging - controls what gets to be committed. Must happened before "commit"
+	Commit - a process of "saving" changes to the repo
+	Push - "sending" changes to the server (GitHUB) 
+	Pull - "extracting" from the server (GitHUB)
+	Clone - if repo already exists, use clone command to create a repo on your computer
+
+--------------------------------------------------------------------------------
+0. INSTALLING Git:
+	0.1	git-scm.com and download from there and install
+	0.2	open Git Bash
+		RUN:	git --version
+	0.3	To setup Git:
+		RUN:	git config --global user.name "SAS"
+				git config --global user.email "sasurikov@verizon.net"
+
+--------------------------------------------------------------------------------
+1. SET UP Git on the local sub-directory:
+	1.1	Start Git Bash;
+	
+	1.2	Navigate to the working directory and create a local repo:
+		RUN:	git init
+		RESULT:	".git" sub-directory is created, which is a "local" repo
+--------------------------------------------------------------------------------
+2.	WORKING WITH Git:
+	2.1	To see what has been modified or added:
+		RUN:	git status
+		RESULT:	a list of changed/new files appears - a list of files in red
+	
+	2.2	Stage changes:
+		RUN:	git add -A
+		
+		RUN:	git status
+		RESULT:	a list of modified files in green
+	
+	2.3	To commit changes to the local repository:
+		RUN:	git commit -m "Message about update"
+--------------------------------------------------------------------------------
+3.	TO RESTORE FROM Git (from local sub-directory):
+All the files, changes, etc are stored in the local sub-directory of the computer.   
+	3.1	If files where deleted,to restore them:
+		RUN:	git checkout -- .
+
+--------------------------------------------------------------------------------
+4. CLONING:
+	4.1	To create a repo based on the existing one in GitHUB - change directory (cd)
+		to where this repo suppose to be and...  
+		RUN:	git clone https://github.com/SASCopenhaver/EXORDIUM
+		RESULT:
+
+#GitHub:
+#User Name: SASCopenhaver
+#Password: 9200@Copenhaver
+#Email: sasurikov@outlook.com
+--------------------------------------------------------------------------------
+

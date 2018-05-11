@@ -1,0 +1,18 @@
+{
+  "name": "exordium1",
+  "version": "1.0.0",
+  "description": "For the app design with Node.js ",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sas",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-watch": "^5.0.0"
+  }
+}

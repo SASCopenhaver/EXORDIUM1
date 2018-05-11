@@ -1,0 +1,16 @@
+#Git
+#Node
+#NPM
+#Gulp
+================================================================================
+GitHub:
+User Name: SASCopenhaver
+Password: 9200@Copenhaver
+Email: sasurikov@outlook.com
+================================================================================
+1. TO CLONE FROM GitHUB TO LOCAL COMPUTER (if needed)
+	git clone https://github.com/SASCopenhaver/some-source.git
+	
+2.	TO PUSH TO A NEW SERVER LOCATION:
+	2.1 Change origin location:
+		RUN:	git remote set-url origin https://github.com/SASCopenhaver/destination.git
