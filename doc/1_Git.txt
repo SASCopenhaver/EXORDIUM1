@@ -42,7 +42,7 @@ Vocabulary:
 	2.2	Stage changes:
 		RUN:	git add -A
 		
-		RUN:	git status
+		RUN:	git ststattatus
 		RESULT:	a list of modified files in green
 	
 	2.3	To commit changes to the local repository:

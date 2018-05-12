@@ -1,0 +1,46 @@
+Video: Udemy/Git Web Developer
+
+NPM – Node Package Manager. 
+
+Centralized place for code sharing.  Package Manager automatically grabs the latest copies of the component used during development.
+1.	Node packages (related to Node.js) for:
+	a.	Automation
+	b.	Build Tools
+	c.	Server tasks
+2.	Packages unrelated to Node.js:
+	a.	jQuery
+	b.	Bootstrap
+	c.	Normalize.css
+	d.	….
+
+3. Go to the working sub-directory:
+	3.1	RUN: npm init
+	3.2	As a result a file package.json is created.  
+		It keeps track of all packages the project uses.
+		  
+		!!!Create this file for each project!!!
+	3.3	Delete everything except:
+		{
+		  "name": "travel-site",
+		  "version": "1.0.0"
+		 }
+	3.4	To install just jQuery:
+		RUN: npm install jquery --save
+		RESULT:	Process adds C:\Project_Git\travel-site\node_modules\jquery  subdirectory
+	3.5	package.jason changes
+		{
+		  "name": "travel-site",
+		  "version": "1.0.0",
+		  "dependencies": {
+		    "jquery": "^3.3.1"
+		  }
+	3.6 To install normalize.css:
+		RUN:	npm install normalize.css --save
+		RESULT:	installs normalize.css and add it to "dependencies" 
+				of the package.json
+		
+	3.7 If sub-dir "node_modules" is deleted, 
+		RUN: npm install
+		RESULT:	it reads package.jason and installs whatever is specified 
+				in "dependencies".	
+	

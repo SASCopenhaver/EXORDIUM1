@@ -1,0 +1,8 @@
+NodeJS is needed for:
+	To achive AUTOMATION:
+		-	Detect changes in the file and automatically refresh browser
+			to see changes;
+		-	CSS autoprefixer
+		- 	Package Management (jQuery, Normalize.css)
+		   
+NodeJS is interpreting and evaluation JavaScript code.
