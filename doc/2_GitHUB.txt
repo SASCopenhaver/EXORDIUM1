@@ -1,4 +1,4 @@
-#Git
+git remote -v#Git
 #Node
 #NPM
 #Gulp
